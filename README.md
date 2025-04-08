@@ -56,6 +56,7 @@
 ![Consulta 6](img/consulta_6.png  "Consulta 6")
 
 7. Obtener el nombre y el precio de los artículos en dolares.
-SELECT nombre_articulo AS Artículo, precio_articulo /4300 AS Precio $USD
+
+`SELECT nombre_articulo AS Artículo, precio_articulo /4300 AS Precio $USD`
 
 ![Consulta 7](img/consulta_7.png  "Consulta 7")
