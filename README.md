@@ -57,6 +57,35 @@
 
 7. Obtener el nombre y el precio de los artículos en dolares.
 
-`SELECT nombre_articulo AS Artículo, precio_articulo /4300 AS Precio $USD`
+`SELECT nombre_articulo AS Artículo, precio_articulo / 4300 AS Precio_USD`
 
 ![Consulta 7](img/consulta_7.png  "Consulta 7")
+
+8. Mostrar el precio promedio de todos los productos.
+
+`SELECT AVG(precio_articulo) AS Precio_promedio FROM artículo;`
+
+![Consulta 8](img/consulta_8.png  "Consulta 8")
+
+9. Mostrar el precio promedio de los artículos cuyo código de fabricante sea fab02
+
+`SELECT AVG(precio_articulo) AS Promedio_pepito FROM artículo WHERE id_fabricante = "fab02";`
+
+![Consulta 9](img/consulta_9.png  "Consulta 9")
+
+10. Obtener el número de artículos cuyo precio sea mayor o igual a $50000.
+
+`SELECT COUNT(nombre_articulo) FROM artículo WHERE precio_articulo > 50000;`
+
+![Consulta 10](img/consulta_10.png  "Consulta 10")
+
+11. Obtener el nombre y el precio de los artículos cuyo precio sea igual o mayor a $50000 y ordenarlos descendentemente por precio, y luego ascendentemente por nombre.
+
+`SELECT `
+
+
+
+12. Mostrar el listado completo de artículos, incluyendo por cada artículo los datos del artículo y de su fabricante.
+13. Obtener un listado de artículos, incluyendo el nombre del artículo, su precio y el nombre de su fabricante.
+14. Obtener el precio promedio de los productos de cada fabricante, mostrando solo los códigos de los fabricantes.
+15. Mostrar el precio promedio de los productos de cada fabricante, mostrando el nombre del fabricante.
